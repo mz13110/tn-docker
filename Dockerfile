@@ -1,6 +1,6 @@
 from node:19
 
-ENV REPO_URL=
+ENV REPO_URL=https://github.com/cohenerickson/Velocity.git
 ENV PORT=8080
 
 RUN apt-get install git -y
