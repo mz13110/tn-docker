@@ -6,7 +6,7 @@ ENV PORT=8080
 RUN apt-get install git -y
 
 WORKDIR /usr/app/
-RUN git clone $REPO_URL
+RUN git clone $REPO_URL .
 COPY main.sh main.sh
 
 RUN npm install
